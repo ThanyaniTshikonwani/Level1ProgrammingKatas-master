@@ -22,13 +22,13 @@ public class    Isosceles {
         while (i <= size) {
             int    j = size;
             while (j > i) {
-                j--;
                 System.out.print(" ");
+                j--;
             }
 
             int    k = 1;
             while (k <= (i*2)-1) {
-                System.out.println("#");
+                System.out.print("#");
                 k++;
             }
             System.out.println();

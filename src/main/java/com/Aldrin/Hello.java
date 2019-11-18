@@ -9,5 +9,10 @@ public class    Hello {
         System.out.print("Please enter your name: ");
         name = user_input.next();
         System.out.println("Hello!! " + name);
+        try {
+            System.out.println("Hello!! " + name);
+        }catch (Exception e){
+            System.out.println("Please enter Strings");
+        }
     }
 }

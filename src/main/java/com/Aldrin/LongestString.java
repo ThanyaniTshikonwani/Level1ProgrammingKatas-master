@@ -9,6 +9,7 @@ public class LongestString {
         String[] array = new String[5];
         System.out.println("Enter 5 Strings: ");
 
+
         int i = 0;
          while (i < array.length){
              array[i] = input.nextLine();
